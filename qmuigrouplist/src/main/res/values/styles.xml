@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+<!--    <style name="ppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        &lt;!&ndash; Customize your theme here. &ndash;&gt;
+        <item name="QMUIGroupListViewStyle">@style/GroupListViewStyle_1</item>
+    </style>-->
+
+<!--    <style name="GroupListViewStyle_0">
+        <item name="QMUIGroupListViewStyle">@style/GroupListView_0</item>
+    </style>
+
+    <style name="GroupListViewStyle_1">
+        <item name="QMUIGroupListViewStyle">@style/GroupListView_1</item>
+    </style>-->
+
+    <style name="GroupListView_0">
+        <item name="separatorStyle">none</item>
+        <item name="qmui_orientation">horizontal</item>
+    </style>
+
+    <style name="GroupListView_1">
+        <item name="qmui_list_item_height">@dimen/qmui_list_item_height</item>
+        <item name="qmui_list_item_height_higher">@dimen/qmui_list_item_height_higher</item>
+
+        <item name="qmui_config_color_gray_1">@color/qmui_config_color_gray_1</item>
+        <item name="qmui_config_color_gray_3">@color/qmui_config_color_gray_3</item>
+        <item name="qmui_config_color_gray_5">@color/qmui_config_color_gray_5</item>
+
+        <item name="QMUITipPointStyle">@style/TipPoint</item>
+        <item name="QMUITipNewStyle">@style/TipNew</item>
+
+        <item name="qmui_orientation">horizontal</item>
+
+        <item name="QMUICommonListItemViewStyle">@style/CommonListItemView</item>
+        <item name="qmui_content_padding_horizontal">@dimen/qmui_content_padding_horizontal</item> <!-- 已废弃 -->
+        <item name="qmui_content_spacing_horizontal">@dimen/qmui_content_spacing_horizontal</item>
+        <item name="qmui_s_list_item_bg_with_border_none">@drawable/qmui_s_list_item_bg_with_border_none</item>
+        <item name="qmui_common_list_item_chevron">@drawable/qmui_icon_chevron</item>
+
+        <item name="QMUIGroupListSectionViewStyle">@style/GroupListSectionView</item>
+
+    </style>
+
+    <!--********************* Tip *********************-->
+    <!-- 提示更新小圆点 -->
+    <style name="TipPoint">
+        <item name="android:layout_width">@dimen/qmui_tips_point_size</item>
+        <item name="android:layout_height">@dimen/qmui_tips_point_size</item>
+        <item name="android:background">@drawable/qmui_tips_point</item>
+    </style>
+
+    <!-- 提示更新new -->
+    <style name="TipNew">
+        <item name="android:layout_width">37dp</item>
+        <item name="android:layout_height">17dp</item>
+        <item name="android:background">@drawable/qmui_icon_tip_new</item>
+    </style>
+
+
+    <style name="CommonListItemView">
+        <item name="android:paddingLeft">?attr/qmui_content_padding_horizontal</item>
+        <item name="android:paddingRight">?attr/qmui_content_padding_horizontal</item>
+        <item name="android:background">?attr/qmui_s_list_item_bg_with_border_none</item>
+        <item name="qmui_commonList_titleColor">?attr/qmui_config_color_gray_1</item>
+        <item name="qmui_commonList_detailColor">?attr/qmui_config_color_gray_5</item>
+    </style>
+
+
+    <style name="GroupListSectionView">
+        <item name="android:paddingLeft">?attr/qmui_content_padding_horizontal</item>
+        <item name="android:paddingRight">?attr/qmui_content_padding_horizontal</item>
+        <item name="android:paddingTop">@dimen/qmui_group_list_section_header_footer_padding_vertical</item>
+        <item name="android:paddingBottom">@dimen/qmui_group_list_section_header_footer_padding_vertical</item>
+    </style>
+
+</resources>

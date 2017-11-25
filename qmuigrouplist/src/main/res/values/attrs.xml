@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <!--**********************************************
+*             qmui list item bg                  *
+**********************************************-->
+    <attr name="qmui_list_item_height" format="dimension" />
+    <attr name="qmui_list_item_height_higher" format="dimension" />
+
+
+    <attr name="qmui_config_color_gray_1" format="color" />
+    <attr name="qmui_config_color_gray_3" format="color" />
+    <attr name="qmui_config_color_gray_5" format="color" />
+
+    <!--************ 更新小红点与 new 的样式配置 ***********-->
+    <attr name="QMUITipPointStyle" format="reference" />
+    <attr name="QMUITipNewStyle" format="reference" />
+
+    <attr name="qmui_orientation" format="enum">
+        <enum name="horizontal" value="0"/>
+        <enum name="vertical" value="1"/>
+    </attr>
+
+
+    <!--************** QMUIGroupListView **************-->
+    <attr name="QMUIGroupListViewStyle" format="reference" />
+    <declare-styleable name="QMUIGroupListView">
+        <attr name="separatorStyle" format="enum">
+            <enum name="normal" value="0" />
+            <enum name="none" value="1" />
+        </attr>
+    </declare-styleable>
+
+
+
+    <attr name="QMUICommonListItemViewStyle" format="reference" />
+    <attr name="qmui_content_padding_horizontal" format="dimension"/> <!-- 已废弃 -->
+    <attr name="qmui_content_spacing_horizontal" format="dimension"/> <!-- margin 和 padding 等使用的内容通用水平间距 -->
+    <attr name="qmui_s_list_item_bg_with_border_none" format="reference"/>
+    <attr name="qmui_common_list_item_chevron" format="reference" />
+    <declare-styleable name="QMUICommonListItemView">
+        <attr name="qmui_orientation" />
+        <attr name="qmui_accessory_type" format="enum">
+            <enum name="none" value="0" />
+            <enum name="chevron" value="1" />
+            <enum name="switcher" value="2" />
+            <enum name="custom" value="3" />
+        </attr>
+        <attr name="qmui_commonList_titleColor" format="color" />
+        <attr name="qmui_commonList_detailColor" format="color" />
+    </declare-styleable>
+
+
+    <attr name="QMUIGroupListSectionViewStyle" format="reference" />
+</resources>

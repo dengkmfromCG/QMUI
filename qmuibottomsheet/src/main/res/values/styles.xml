@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="QMUI.BottomSheet" parent="android:Theme.Dialog">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowAnimationStyle">@null</item><!-- 设置进场动画,为了避免在有 NavigationBar 的手机上 Dialog 从 NavigationBar 底部上来。去掉 Dialog 的动画，使用 View 的动画。-->
+        <item name="android:layout_width">match_parent</item>
+        <!--<item name="android:windowAnimationStyle">@style/Animation</item>-->
+
+
+<!--        这一部分是设置sheetItem的,未实现
+        <item name="android:listSelector">@drawable/bs_list_selector</item>
+        <item name="android:drawSelectorOnTop">false</item>
+        <item name="android:layoutAnimation">@anim/bs_list_layout_anim_in</item>
+        <item name="android:paddingBottom">8dp</item>
+        <item name="android:clipToPadding">false</item>-->
+
+    </style>
+
+    <style name="Animation">
+        <item name="android:windowEnterAnimation">@anim/dock_bottom_enter</item>
+        <item name="android:windowExitAnimation">@anim/dock_bottom_exit</item>
+    </style>
+
+    <style name="MBottomSheet">
+        <item name="qmui_list_item_bg_with_border_bottom">@drawable/qmui_list_item_bg_with_border_bottom</item>
+        <item name="qmui_content_padding_horizontal">@dimen/qmui_content_padding_horizontal</item> <!-- 已废弃 -->
+        <item name="qmui_content_spacing_horizontal">@dimen/qmui_content_spacing_horizontal</item>
+        <item name="qmui_s_list_item_bg_with_border_bottom">@drawable/qmui_s_list_item_bg_with_border_bottom</item>
+        <item name="qmui_config_color_gray_3">@color/qmui_config_color_gray_3</item>
+
+
+        <item name="QMUITipPointStyle">@style/TipPoint</item>
+
+        <item name="qmui_alpha_pressed">0.5</item>
+        <item name="qmui_alpha_disabled">0.5</item>
+        <!--**********************************************
+*             qmui drawable                      *
+***********************************************-->
+        <item name="qmui_s_checkbox">@drawable/qmui_s_checkbox</item>
+        <item name="qmui_icon_check_mark">@drawable/qmui_icon_checkmark</item>
+
+
+        <!--**********************************************
+        *                 qmui bottom sheet              *
+        ***********************************************-->
+        <item name="qmui_bottom_sheet_title_height">56dp</item>
+        <item name="qmui_bottom_sheet_title_appearance">@style/QMUITextAppearance.Title.Gray</item>
+        <item name="qmui_bottom_sheet_title_bg">?attr/qmui_list_item_bg_with_border_bottom</item>
+
+        <item name="qmui_bottom_sheet_list_item_padding_horizontal">?attr/qmui_content_padding_horizontal</item>
+        <item name="qmui_bottom_sheet_list_item_height">56dp</item>
+        <item name="qmui_bottom_sheet_list_item_mark_margin_left">12dp</item>
+        <item name="qmui_bottom_sheet_list_item_tip_point_margin_left">4dp</item>
+        <item name="qmui_bottom_sheet_list_item_text_appearance">@style/QMUITextAppearance.ListItem</item>
+        <item name="qmui_bottom_sheet_list_item_bg">?attr/qmui_s_list_item_bg_with_border_bottom</item>
+        <item name="qmui_bottom_sheet_list_item_icon_size">22dp</item>
+        <item name="qmui_bottom_sheet_list_item_icon_margin_right">12dp</item>
+
+        <item name="qmui_bottom_sheet_grid_padding_vertical">12dp</item>
+        <item name="qmui_bottom_sheet_grid_line_padding_horizontal">12dp</item>
+        <item name="qmui_bottom_sheet_grid_line_vertical_space">0dp</item>
+        <item name="qmui_bottom_sheet_grid_item_mini_width">84dp</item>
+        <item name="qmui_bottom_sheet_grid_item_icon_size">56dp</item>
+        <item name="qmui_bottom_sheet_grid_item_text_appearance">@style/QMUITextAppearance.GridItem.Small</item>
+
+        <item name="qmui_bottom_sheet_button_height">56dp</item>
+        <item name="qmui_bottom_sheet_button_text_size">15sp</item>
+        <item name="qmui_bottom_sheet_button_text_color">@color/qmui_config_color_gray_2</item>
+        <item name="qmui_bottom_sheet_button_text_background">@drawable/qmui_s_list_item_bg_with_border_top</item>
+    </style>
+
+
+    <style name="QMUITextAppearance" parent="android:TextAppearance.Holo"/>
+    <style name="QMUITextAppearance.Title"/>
+    <style name="QMUITextAppearance.Title.Gray">
+        <item name="android:textColor">?attr/qmui_config_color_gray_3</item>
+    </style>
+    <style name="QMUITextAppearance.ListItem">
+        <item name="android:textColor">@color/qmui_s_list_item_text_color</item>
+    </style>
+
+
+    <style name="QMUITextAppearance.GridItem"/>
+    <style name="QMUITextAppearance.GridItem.Small">
+        <item name="android:textColor">@color/qmui_config_color_gray_3</item>
+        <item name="android:textSize">11sp</item>
+    </style>
+
+    <!-- 提示更新小圆点 -->
+    <style name="TipPoint">
+        <item name="android:layout_width">@dimen/qmui_tips_point_size</item>
+        <item name="android:layout_height">@dimen/qmui_tips_point_size</item>
+        <item name="android:background">@drawable/qmui_tips_point</item>
+    </style>
+
+</resources>

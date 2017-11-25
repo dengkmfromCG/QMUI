@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/QMUI.iml" filepath="$PROJECT_DIR$/QMUI.iml" />
+      <module fileurl="file://$PROJECT_DIR$/qmuibottomsheet/qmuibottomsheet.iml" filepath="$PROJECT_DIR$/qmuibottomsheet/qmuibottomsheet.iml" />
+      <module fileurl="file://$PROJECT_DIR$/qmuidialog/qmuidialog.iml" filepath="$PROJECT_DIR$/qmuidialog/qmuidialog.iml" />
+      <module fileurl="file://$PROJECT_DIR$/qmuigrouplist/qmuigrouplist.iml" filepath="$PROJECT_DIR$/qmuigrouplist/qmuigrouplist.iml" />
+      <module fileurl="file://$PROJECT_DIR$/textdemo/textdemo.iml" filepath="$PROJECT_DIR$/textdemo/textdemo.iml" />
+    </modules>
+  </component>
+</project>

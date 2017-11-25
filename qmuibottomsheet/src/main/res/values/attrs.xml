@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="qmui_list_item_bg_with_border_bottom" format="reference"/>
+    <attr name="qmui_content_padding_horizontal" format="dimension"/> <!-- 已废弃 -->
+    <attr name="qmui_content_spacing_horizontal" format="dimension"/> <!-- margin 和 padding 等使用的内容通用水平间距 -->
+    <attr name="qmui_s_list_item_bg_with_border_bottom" format="reference"/>
+    <attr name="qmui_config_color_gray_3" format="color"/>
+
+    <attr name="QMUITipPointStyle" format="reference"/>
+
+    <attr name="qmui_alpha_pressed" format="float"/>
+    <attr name="qmui_alpha_disabled" format="float"/>
+
+    <!--**********************************************
+    *             qmui drawbale                      *
+    **********************************************-->
+    <attr name="qmui_icon_check_mark" format="reference"/>
+    <attr name="qmui_s_checkbox" format="reference"/>
+
+
+    <!--**********************************************
+    *              qmui bottom sheet                 *
+    **********************************************-->
+    <attr name="qmui_bottom_sheet_title_height" format="dimension"/>
+    <attr name="qmui_bottom_sheet_title_appearance" format="reference"/>
+    <attr name="qmui_bottom_sheet_title_bg" format="reference"/>
+
+    <attr name="qmui_bottom_sheet_list_item_padding_horizontal" format="dimension"/>
+    <attr name="qmui_bottom_sheet_list_item_height" format="dimension"/>
+    <attr name="qmui_bottom_sheet_list_item_mark_margin_left" format="dimension"/>
+    <attr name="qmui_bottom_sheet_list_item_tip_point_margin_left" format="dimension"/>
+    <attr name="qmui_bottom_sheet_list_item_text_appearance" format="reference"/>
+    <attr name="qmui_bottom_sheet_list_item_bg" format="reference"/>
+    <attr name="qmui_bottom_sheet_list_item_icon_size" format="dimension"/>
+    <attr name="qmui_bottom_sheet_list_item_icon_margin_right" format="dimension"/>
+
+    <attr name="qmui_bottom_sheet_grid_padding_vertical" format="dimension"/>
+    <attr name="qmui_bottom_sheet_grid_line_padding_horizontal" format="dimension"/>
+    <attr name="qmui_bottom_sheet_grid_line_vertical_space" format="dimension"/>
+
+    <attr name="qmui_bottom_sheet_grid_item_mini_width" format="dimension"/>
+    <attr name="qmui_bottom_sheet_grid_item_icon_size" format="dimension"/>
+    <attr name="qmui_bottom_sheet_grid_item_text_appearance" format="reference"/>
+
+    <attr name="qmui_bottom_sheet_button_height" format="dimension"/>
+    <attr name="qmui_bottom_sheet_button_text_size" format="dimension"/>
+    <attr name="qmui_bottom_sheet_button_text_color" format="reference"/>
+    <attr name="qmui_bottom_sheet_button_text_background" format="reference"/>
+
+</resources>
